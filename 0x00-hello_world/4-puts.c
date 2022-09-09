@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+ * main -Print out string using puts
 *Description: Displaying output using puts
 *
 * Using the main function this
