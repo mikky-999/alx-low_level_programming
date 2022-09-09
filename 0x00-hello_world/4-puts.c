@@ -3,7 +3,8 @@
 /*
 *Displaying output using puts
 *
-* Using the main function this code prints "Programming is like building a multilingual puzzle
+* Using the main function this
+* code prints "Programming is like building a multilingual puzzle
 * Return:0
 */
 int main(void)
