@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/**                                                                                                                                     
- *  main - Print out string using printf
+/** 
+ * main - Print out string using printf
  *
- *  Description: Using the main function
- *  This program prints outcome is a piece of art,
- *  Return: 0
+ * Description: Using the main function
+ * This program prints outcome is a piece of art,
+ * Return: 0
  */
 
 int main(void)
