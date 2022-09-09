@@ -4,9 +4,8 @@
  *  main - Print out string using printf
  *
  *  Description: Using the main function
- *  This program prints with proper grammar,
- *  but the outcome is a piece of art,
- *   return: 0
+ *  This program prints the outcome is a piece of art,
+ *  Return: 0
  */
 
 int main(void)
