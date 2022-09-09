@@ -4,7 +4,7 @@
  *  main - Print out string using printf
  *
  *  Description: Using the main function
- *  This program prints the outcome is a piece of art,
+ *  This program prints outcome is a piece of art,
  *  Return: 0
  */
 
