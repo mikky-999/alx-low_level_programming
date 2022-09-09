@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-*Displaying output using puts
+*Description: Displaying output using puts
 *
 * Using the main function this
 * code prints "Programming is like building a multilingual puzzle
