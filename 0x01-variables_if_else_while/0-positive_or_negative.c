@@ -1,12 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/* main - print if the number is positive, zero, or negative
- *
- * Description: using the main function
- *
- * program to tell positive and negative of n number
+/*
+ * main - print if the number is positive, zero, or negative
  * return: 0
  */
 int main(void)
