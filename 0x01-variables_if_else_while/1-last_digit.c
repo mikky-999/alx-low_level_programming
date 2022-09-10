@@ -2,33 +2,23 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - print if the numbe is poitive, zero, or negative
- *
- * Description: using the main function
- *
- * this program prints positive, zero, or negative
- * Return: 0
+/**
+ * main - Checks the last digit of n
+ * prints out if it's positive, negative or zero
+ * Return: 0 if no errors occured
  */
 int main(void)
 {
 	int n;
-	int l;
+	int lb;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = (n % 10);
-	/*your code goes there */
-	if (l > 5)
-	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, l);
-	}
-	else if (l == 0)
-	{
-		printf("Last digits of %d is %d and is 0\n", n, l);
-	}
+	lb = n % 10;
+	if (lb > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, lg);
+	else if (lg == 0)
+		printf("Last digit of %d is %d and is 0\n", n, lg);
 	else
-	{
-		printf("Last digit of %d is %d and is less than 5\n", n, l);
-	}
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lg);
 	return (0);
 }
-	
