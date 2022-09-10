@@ -3,7 +3,9 @@
 /*
  * main - It is the entry point of our code
  *
- * Return:0 if no errors, non zero if errors encoutered.
+ * Description: using the main function
+ * if no errors, non zero if errors encoutered.
+ * Return:0
  */
 
 int main(void)
