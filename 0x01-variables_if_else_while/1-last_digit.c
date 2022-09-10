@@ -5,6 +5,7 @@
  * main - print if the numbe is poitive, zero, or negative
  *
  * Description: using the main function
+ *
  * this program prints positive, zero, or negative
  * Return: 0
  */
@@ -24,7 +25,7 @@ int main(void)
 	{
 		printf("Last digits of %d is %d and is 0\n", n, l);
 	}
-	else if(l < 5)
+	else if (l < 5)
 	{
 		printf("Last digit of %d is %d and is less than 5\n", n, l);
 	}

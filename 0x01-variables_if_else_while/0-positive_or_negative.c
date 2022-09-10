@@ -5,6 +5,7 @@
 /* main - print if the number is positive, zero, or negative
  *
  * Description: using the main function
+ *
  * program to tell positive and negative of n number
  * return: 0
  */
