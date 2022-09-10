@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-/** 
- * main - Print out string using printf
+/*
+ * main - It is the entry point of our code
  *
- * Description: Using the main function
- * This program prints outcome is a piece of art,
- * Return: 0
+ * Return:0 if no errors, non zero if errors encoutered.
  */
 
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
+
 }
