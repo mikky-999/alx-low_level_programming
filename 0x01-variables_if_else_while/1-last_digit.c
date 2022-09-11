@@ -11,6 +11,7 @@ int main(void)
 {
 	int n;
 	int lb;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	lb = n % 10;
