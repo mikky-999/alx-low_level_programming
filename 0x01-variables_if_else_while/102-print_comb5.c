@@ -9,8 +9,9 @@
 
 int main(void)
 {
-	int x, z;
-	
+	int x;
+	int z;
+
 	for (x = 0; x <= 98; x++)
 	{
 		for (z = x + 1; z <= 99; z++)
