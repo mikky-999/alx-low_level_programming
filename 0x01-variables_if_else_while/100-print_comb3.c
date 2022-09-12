@@ -1,23 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 /**
- * main - entry point
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int t;
-
-	for (t = 1 ; t < 100 ; t++)
+	int a, b;
+	
+	for (a = '0'; a <= '9'; a++)
 	{
-		putchar((t / 10) + '0');
-		putchar((t % 10) + '0');
-		if (t != 89)
+		for (b = '1'; b <= '9'; b++)
 		{
-			putchar(',');
-			putchar(' ');
+			if ( a != b && b > a)
+			{
+				putchar(a);
+				putchar(b);
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
