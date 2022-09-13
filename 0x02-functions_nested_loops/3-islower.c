@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _islower(int c) - Check if char is in lower case
- *
+ * _islower - Check if char is in lower case
+ * @c: interger argument to be passed
  * Return: 1 (success) else 0
  */
 int _islower(int c)
