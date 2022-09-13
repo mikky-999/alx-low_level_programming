@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _abs(int) -Find the absolute number
+ * _abs - Find the absolute number
  * @n: integer argument to be passed
- * Return: (n)
+ * Return: value of n
  */
 int _abs(int n)
 {
@@ -13,6 +13,6 @@ int _abs(int n)
 	}
 	else
 	{
-		return (n / -1);
+		return (n * -1);
 	}
 }
