@@ -1,11 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - Entry point
- * Description: using the main functionn to print out numbers
- * return: Always 0 (success)
+/**
+ * main - checks the random value of n and prints out if
+ * it is positive, negative or zero
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int n;
