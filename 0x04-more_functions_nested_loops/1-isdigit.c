@@ -6,6 +6,7 @@
  * @c: argument passed in to the function _isdigit
  * Return: 1 if true else 0
  */
+
 int _isdigit(int c)
 {
 	if (c >=0 && c <= 9)
