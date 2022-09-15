@@ -6,9 +6,10 @@
  * @c: argument passed to the function _isupper
  * Return: 1 if true else 0
  */
+
 int _isupper(int c)
 {
-	if (c >= 'A' && c <='Z')
+	if ((c >= 'A') && (c <='Z'))
 	{
 		return (1);
 	}
