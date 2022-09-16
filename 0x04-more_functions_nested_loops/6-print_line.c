@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
-*print_line - prints a straight line
-*@a: parameter to be passed
-*Return:returns nothing
-*/
+ *print_line - prints a straight line
+ *@n: parameter
+ *Return:returns nothing
+ */
 
-void print_line(int a)
+void print_line(int n)
 {
-	while (a-- > 0)
+	while (n-- > 0)
 	{
 		putchar('_');
 	}
