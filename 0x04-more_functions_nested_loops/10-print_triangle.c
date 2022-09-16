@@ -12,22 +12,25 @@ void print_triangle(int sz)
 
 	if (sz > 0)
 	{
-		for (re1 = 1; re1 <= size; re1++)
+		for (re1 = 1; re1 <= sz; re1++)
 		{
-			for ((re2 = size - re1); re2 > 0; re2--)
+			for ((re2 = sz - re1); re2 > 0; re2--)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
+
 			for (re2 = 0; re2 < re1; re2++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
-			if (incl == size)
+
+			if (re1 == sz)
 			{
 				continue;
 			}
-			_putchar('\n');
+
+			putchar('\n');
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
