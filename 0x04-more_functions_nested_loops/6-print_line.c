@@ -1,16 +1,17 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * print_line - prints a straight line
- * @a: parameter
- * Return: nothing
- */
+*print_line - prints a straight line
+*@a: parameter to be passed
+*Return:returns nothing
+*/
+
 void print_line(int a)
 {
 	while (a-- > 0)
 	{
-		_putchar('_');
+		putchar('_');
 	}
-	_purchar('\n');
+	putchar('\n');
 }
