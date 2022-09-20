@@ -1,20 +1,21 @@
-#include <string.h>
-#include <stdio.h>
 #include "main.h"
 
 /**
- * puts2 - This function prints a string, followed by a new line, to stdout
- * @str: string to be printed
- *
- * Return: nothing
- */
+* puts2 - print alternating chars of string
+* @str: string, is the parameter pased
+* Return: Void
+*/
+
 void puts2(char *str)
 {
-	int i = strlen(str);
+	int i;
+	i = 0;
 
-	while (i+=2)
+	while (str[i] != '\0')
 	{
-		puts(str);
+		if (i % 2 == 0)
+			_putchar(str[i]);
+		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
