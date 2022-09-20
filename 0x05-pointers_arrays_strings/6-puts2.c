@@ -9,12 +9,11 @@
  */
 void puts2(char *str)
 {
-	int i = 0;
+	int i = strlen(str);
 
-	while (*(str + i) != '\0')
+	while (i+=2)
 	{
-		putchar(*(str + i));
-		i += 2;
+		put(str);
 	}
 	putchar('\n');
 }
