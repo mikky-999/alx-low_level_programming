@@ -79,7 +79,7 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 
 		while (mul != 0)
 		{
-OBOBOB			mul += a3[k] - '0';
+			mul += a3[k] - '0';
 			a3[k] = (mul % 10) + '0';
 			mul /= 10;
 			k--;
@@ -88,15 +88,15 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	return (a3);
 }
 /**
-OBOBOB * print_array - print all digits of array.
+ * print_array - print all digits of array.
  * @nb: number of elements to print.
  * @a: array of elements.
-OBOBOB **/
+ **/
 void print_array(char *a, int nb)
 {
 	int i = 0;
 
-OBOBOB	while (a[i] == '0' && (i + 1) < nb)
+	while (a[i] == '0' && (i + 1) < nb)
 	{
 		i++;
 	}
