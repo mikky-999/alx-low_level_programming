@@ -1,8 +1,8 @@
-#include "list.h"
+#include "lists.h"
 #include <stdio.h>
 
 /**
- *
+ * print_dlistint - Funtion that print number of nodes and data in the list
  * @count - Number of nodes 
  * Return - Count
  */
